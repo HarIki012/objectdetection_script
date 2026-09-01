@@ -810,6 +810,14 @@
 
     使用[TCSVT2026 MAFusion](https://ieeexplore.ieee.org/document/11218867)中的MAFusion改进YOLO11-Neck.
 
+41. ultralytics/cfg/models/11/yolo11-CFDM.yaml
+
+    使用[TGRS2026 CFDM](https://ieeexplore.ieee.org/document/11474595)中的AMCM改进yolo11-neck.
+
+42. ultralytics/cfg/models/11/yolo11-WFAM.yaml
+
+    使用[TGRS2026 WFAM](https://ieeexplore.ieee.org/document/11474595)中的WFAM改进yolo11-neck.
+
 ### Head系列
 1. ultralytics/cfg/models/11/yolo11-dyhead.yaml
 
@@ -1573,6 +1581,14 @@
     
     使用[TGRS2026 GLCDM](https://ieeexplore.ieee.org/document/11397410)中的GLCDM改进C3k2.
 
+172. ultralytics/cfg/models/11/yolo11-C3k2-AMCM.yaml
+     
+    使用[ICML2026 AMCM](https://arxiv.org/pdf/2605.14926)中的AMCM改进C3k2.
+
+173. ultralytics/cfg/models/11/yolo11-C3k2-EDDConv.yaml
+
+    使用[TGRS2026 EDDConv](https://ieeexplore.ieee.org/document/11500495)中的AMCM改进C3k2.
+
 ### C2PSA系列
 
 1. ultralytics/cfg/models/11/yolo11-C2BRA.yaml
@@ -1710,6 +1726,18 @@
 34. ultralytics/cfg/models/11/yolo11-C2PSA-SDTA.yaml
 
     使用[ICIP2026 SDTA](https://arxiv.org/pdf/2605.10148v1)中的SDTA改进C2PSA.
+
+35. ultralytics/cfg/models/11/yolo11-C2PSA-MSAM.yaml
+     
+    使用[TGRS2026 MSAM](https://ieeexplore.ieee.org/document/11474595)中的MSAM改进C2PSA.
+
+36. ultralytics/cfg/models/11/yolo11-C2PSA-PolyMLP.yaml
+     
+    使用[ICML2026 PolyMLP](https://arxiv.org/pdf/2605.20839)中的PolyMLP改进C2PSA.
+
+37. ultralytics/cfg/models/11/yolo11-C2PSA-SAA.yaml
+
+    使用[CVPR2026F SAA](https://arxiv.org/pdf/2604.07994)中的SAA改进C2PSA.
 
 ### A2C2f系列
 1. ultralytics/cfg/models/12/yolo12-A2C2f-CGLU.yaml
@@ -2167,3 +2195,14 @@
     4. 新增TGRS2026-DMSSP模块。
     5. 更新使用教程。
     6. 百度云视频增加20260623更新说明.
+
+- **20260901-yolo11-v1.44**
+    1. 新增TGRS2026-MSAM模块。
+    2. 新增ICML2026-PolyMLP模块。
+    3. 新增CVPR2026F-SAA模块。
+    4. 新增ICML2026-AMCM模块。
+    5. 新增TGRS2026-EDDConv模块。
+    6. 新增TGRS2026-CFDM模块。
+    7. 新增TGRS2026-WFAM模块。
+    8. 更新使用教程。
+    9. 百度云视频增加20260901更新说明.

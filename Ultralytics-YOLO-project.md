@@ -73,6 +73,8 @@
     30. 自研模块|ultralytics/nn/extra_modules/conv_module/AGIDWC.py
     31. 自研模块|ultralytics/nn/extra_modules/conv_module/MSIDWC.py
     32. ICML2026|ultralytics/nn/extra_modules/conv_module/PolyConv.py
+    33. 自研模块|ultralytics/nn/extra_modules/conv_module/FAKConv.py
+    34. TGRS2026|ultralytics/nn/extra_modules/conv_module/EDDConv.py
 
 - engine/extre_module/custom_nn/stem(配置文件在ultralytics/cfg/models/improve/stem)
 
@@ -183,6 +185,7 @@
     67. 自研模块|ultralytics/nn/extra_modules/module/BCIM.py
     68. 自研模块|ultralytics/nn/extra_modules/module/DGCM.py
     69. 自研模块|ultralytics/nn/extra_modules/module/EFCM.py
+    70. ICML2026|ultralytics/nn/extra_modules/module/AMCM.py
 
 - ultralytics/nn/extra_modules/block (此部分内容教程可以看GuideVideo-MG.md中的改进模块-使用教程的第一和四节)
     
@@ -230,6 +233,7 @@
     34. TGRS2026|ultralytics/nn/extra_modules/transformer/GLCDM.py
     35. ICIP2026|ultralytics/nn/extra_modules/transformer/SDTA.py
     36. CVPR2026F|ultralytics/nn/extra_modules/transformer/SAA.py
+    37. TGRS2026|ultralytics/nn/extra_modules/transformer/MSAM.py
 
 - ultralytics/nn/extra_modules/mamba(此部分内容教程可以看GuideVideo-MG.md中的改进模块-使用教程的第一和四节)
 
@@ -316,6 +320,8 @@
     27. 自研模块|ultralytics/nn/extra_modules/featurefusion/MSCRM.py
     28. TPAMI2025|ultralytics/nn/extra_modules/featurefusion/LPRM.py
     29. TCSVT2026|ultralytics/nn/extra_modules/featurefusion/MAFusion.py
+    30. TGRS2026|ultralytics/nn/extra_modules/featurefusion/CFDM.py
+    31. TGRS2026|ultralytics/nn/extra_modules/featurefusion/WFAM.py
 
 - ultralytics/nn/extra_modules/norm(此部分内容教程可以看GuideVideo-MG.md中的改进模块-使用教程的第一和四节)
 
@@ -526,3 +532,12 @@
     3. 优化train_auto.py脚本，新增swanlab功能，详细请看 docs/train-auto-baseline-monitor-使用说明.md。
     4. 新增DyHead检测头讲解视频。
     5. 新增 通用二次创新课程-SOEP(Small Object Enhance Pyramid)。
+
+- 20260901
+    1. 新增视频 论文可优化方向分析系列一。
+    2. 新增自研模块-FAKConv模块。
+    3. 新增TGRS2026-EDDConv模块。
+    4. 新增TGRS2026-CFDM模块。
+    5. 新增TGRS2026-WFAM模块。
+    6. 新增ICML2026-AMCM模块。
+    7. 新增TGRS2026-MSAM模块。

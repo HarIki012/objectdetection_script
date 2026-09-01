@@ -936,6 +936,14 @@
 
     使用[AAAI2026 PatchMamba](https://arxiv.org/pdf/2508.03336)中的PatchMamba与CSP改进rtdetr-backbone.
 
+125. ultralytics/cfg/models/rt-detr/rtdetr-C2f-AMCM.yaml
+     
+    使用[ICML2026 AMCM](https://arxiv.org/pdf/2605.14926)中的AMCM与CSP改进Backbone.
+
+126. ultralytics/cfg/models/rt-detr/rtdetr-C2f-EDDConv.yaml
+
+    使用[TGRS2026 EDDConv](https://ieeexplore.ieee.org/document/11500495)中的AMCM与CSP改进Backbone.
+
 ### AIFI系列
 1. ultralytics/cfg/models/rt-detr/rtdetr-AIFI-LPE.yaml
 
@@ -1084,6 +1092,18 @@
 38. ultralytics/cfg/models/rt-detr/rtdetr-AIFI-SDTA.yaml
 
     使用[ICIP2026 SDTA](https://arxiv.org/pdf/2605.10148v1)中的SDTA改进AIFI.
+
+39. ultralytics/cfg/models/rt-detr/rtdetr-AIFI-MSAM.yaml
+     
+    使用[TGRS2026 MSAM](https://ieeexplore.ieee.org/document/11474595)中的MSAM改进AIFI.
+
+40. ultralytics/cfg/models/rt-detr/rtdetr-AIFI-PolyMLP.yaml
+     
+    使用[ICML2026 PolyMLP](https://arxiv.org/pdf/2605.20839)中的PolyMLP改进AIFI.
+
+41. ultralytics/cfg/models/rt-detr/rtdetr-AIFI-SAA.yaml
+
+    使用[CVPR2026F SAA](https://arxiv.org/pdf/2604.07994)中的SAA改进AIFI.
 
 ### Neck系列
 1. ultralytics/cfg/models/rt-detr/rtdetr-ASF.yaml
@@ -1239,6 +1259,14 @@
 38. ultralytics/cfg/models/rt-detr/rtdetr-MAFusion.yaml
 
     使用[TCSVT2026 MAFusion](https://ieeexplore.ieee.org/document/11218867)中的MAFusion改进rtdetr-neck.
+
+39. ultralytics/cfg/models/rt-detr/rtdetr-CFDM.yaml
+
+    使用[TGRS2026 CFDM](https://ieeexplore.ieee.org/document/11474595)中的AMCM改进rtdetr-neck.
+
+40. ultralytics/cfg/models/rt-detr/rtdetr-WFAM.yaml
+
+    使用[TGRS2026 WFAM](https://ieeexplore.ieee.org/document/11474595)中的WFAM改进rtdetr-neck.
 
 ### Head系列
 1. ultralytics/cfg/models/rt-detr/rtdetr-p2.yaml
@@ -2723,3 +2751,14 @@
     4. 新增TGRS2026-DMSSP模块。
     5. 更新使用教程。
     6. 百度云视频增加20260623更新说明.
+
+- **20260901-rtdetr-v1.65**
+    1. 新增TGRS2026-MSAM模块。
+    2. 新增ICML2026-PolyMLP模块。
+    3. 新增CVPR2026F-SAA模块。
+    4. 新增ICML2026-AMCM模块。
+    5. 新增TGRS2026-EDDConv模块。
+    6. 新增TGRS2026-CFDM模块。
+    7. 新增TGRS2026-WFAM模块。
+    8. 更新使用教程。
+    9. 百度云视频增加20260901更新说明.

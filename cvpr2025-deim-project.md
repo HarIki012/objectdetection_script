@@ -399,7 +399,7 @@ PS:
     7. 新增CVPR2026F-SAA模块。
     8. 新增ECCV2026-FSDCDETR论文精讲。
 
-- 202608
+- 20260814
   
     1. 新增自研模块-FEUCB模块。
     2. 新增自研模块-DOGEUCB模块。
@@ -407,6 +407,18 @@ PS:
     4. 新增ICCV2025-ATR-UMOD多模态旋转目标检测数据集，具体在configs/mutilmodality/BaiDuYunPan.txt自取。
     5. 参考WACV2025-RTDETRV3中的训练策略并在DFine/DEIM中实现，支持所有任务(目标检测，实例分割，旋转目标检测，图图多模态，图文多模态，图图文多模态...)，详细说明可以看 docs/RTDETRV3-训练策略流程.md，介绍可以看B站 WACV2025-RTDETRV3的解读。
     6. 新增 RTDETRV3-训练策略教程 讲解视频。
+
+- 20260901
+    
+    1. 新增模型剪枝算法，具体文字教程请看 docs/compress_pruning_使用教程.md，视频教程请看 模型剪枝教程。
+    2. 新增视频 模型剪枝后做知识蒸馏的使用教程。
+    3. 新增视频 论文可优化方向分析系列一。
+    4. 新增自研模块-FAKConv模块。
+    5. 新增TGRS2026-EDDConv模块。
+    6. 新增TGRS2026-CFDM模块。
+    7. 新增TGRS2026-WFAM模块。
+    8. 新增ICML2026-AMCM模块。
+    9. 新增TGRS2026-MSAM模块。
 
 ### 7. 目前已有的模块
 
@@ -472,6 +484,8 @@ PS:
     31. 自研模块｜engine/extre_module/custom_nn/conv_module/AGIDWC.py
     32. 自研模块｜engine/extre_module/custom_nn/conv_module/MSIDWC.py
     33. ICML2026|engine/extre_module/custom_nn/conv_module/PolyConv.py
+    34. 自研模块｜engine/extre_module/custom_nn/conv_module/FAKConv.py
+    35. TGRS2026|engine/extre_module/custom_nn/conv_module/EDDConv.py
 
 - engine/extre_module/custom_nn/upsample
 
@@ -482,8 +496,8 @@ PS:
     5. ICCV2023|engine/extre_module/custom_nn/upsample/DySample.py
     6. ICCV2025|engine/extre_module/custom_nn/upsample/Converse2D_Up.py
     7. CVPR2025|engine/extre_module/custom_nn/upsample/DSUB.py
-    8. 自研模块|ultralytics/nn/extra_modules/upsample/FEUCB.py
-    9. 自研模块|ultralytics/nn/extra_modules/upsample/DOGEUCB.py
+    8. 自研模块｜engine/extre_module/custom_nn/upsample/FEUCB.py
+    9. 自研模块｜engine/extre_module/custom_nn/upsample/DOGEUCB.py
 
 - engine/extre_module/custom_nn/downsample
 
@@ -533,6 +547,8 @@ PS:
     22. 自研模块｜engine/extre_module/custom_nn/featurefusion/MSCRM.py
     23. TPAMI2025|engine/extre_module/custom_nn/featurefusion/LPRM.py
     24. TCSVT2026|engine/extre_module/custom_nn/featurefusion/MAFusion.py
+    25. TGRS2026|engine/extre_module/custom_nn/featurefusion/CFDM.py
+    26. TGRS2026|engine/extre_module/custom_nn/featurefusion/WFAM.py
 
 - engine/extre_module/custom_nn/module
 
@@ -608,6 +624,7 @@ PS:
     70. 自研模块｜engine/extre_module/custom_nn/module/BCIM.py
     71. 自研模块｜engine/extre_module/custom_nn/module/DGCM.py
     72. 自研模块｜engine/extre_module/custom_nn/module/EFCM.py
+    73. ICML2026|engine/extre_module/custom_nn/module/AMCM.py
 
 - engine/extre_module/custom_nn/neck
 
@@ -666,6 +683,7 @@ PS:
     33. TGRS2026｜engine/extre_module/custom_nn/transformer/GLCDM.py
     34. ICIP2026|engine/extre_module/custom_nn/transformer/SDTA.py
     35. CVPR2026F|engine/extre_module/custom_nn/transformer/SAA.py
+    36. TGRS2026|engine/extre_module/custom_nn/transformer/MSAM.py
 
 - engine/extre_module/custom_nn/mlp
 
@@ -863,3 +881,4 @@ PS:
 5. 深度学习常见数据集问题QA
 6. 深度学习常见消融实验问题QA
 7. 论文精读｜ECCV2026-FSDCDETR
+8. 论文可优化方向分析系列一
